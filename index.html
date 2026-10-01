@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="id">
+     <link rel="stylesheet" href="style.css">
+    <head>
+           <nav aria-label="navigasi utama">
+            <a href="index.html">beranda</a>
+            <a href="#ide">ide proyek</a>
+            <a href="#kategori">kategori</a>
+            <a href="#deskripsi">deskripsi</a>
+            <a href="#status">status pengembangan</a>
+            <a href="tentang.html">tentang</a>
+        </nav>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Project Mini Web Kelompok 4</title>
+    </head>
+    
+    <body>
+        <section class="ide-section">
+        <header>
+        <h1>Selamat datang di Bank Ide Proyek Mahasiswa</h1>
+        <p> web ini dibuat untuk membagikan ide-ide proyek mahasiswa</p>
+        </header>
+        
+            <header>
+                <p>punya ide inovatif untuk dikembangkan? 
+                    bagikan ide kreatf kamu disini dan temukan rekan tim yang tepat untuk mewujudkannya!!
+                </p>
+                <h2>sampaikan ide kamu melalui formulir di bawah ini</h2>
+            </header>
+            <form>
+                <div>
+                    <label for="ide">Ide Proyek:</label>
+                    <input type="text" id="ide" name="ide">
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <main>
+            <section aria-labelledby="kategori">
+                <div class="toolbar">
+                    <label for="kategori">Kategori:</label>
+                    <select id="filter kategori">
+                        <option value="semua">Semua</option>
+                        <option value="web">Web Development</option>
+                        <option value="mobile">Mobile Development</option>
+                        <option value="data">Data Science</option>
+                        <option value="ml">Machine Learning</option>
+
+                    </select>
+                </div>
+            </section>
+            <section aria-labelledby="ide">
+                <h2 id="ide">Ide Proyek</h2>
+                <p>Berikut adalah beberapa ide proyek yang telah diajukan oleh mahasiswa:</p>
+            </section>
+            <section aria-labelledby="status">
+                <h2 id="status">Status Pengembangan</h2>
+                <p>Informasi terkini tentang status pengembangan proyek-proyek yang sedang berjalan.</p>
+            </section>
+            <section aria-labelledby="deskripsi">
+                <h2 id="deskripsi">Deskripsi</h2>
+                <p>wadah kolaborasi ide proyek mahasiswa. Menyimpan gagasan dan rancangan
+                    kreatif mahasiswa untuk pengembangan lebih lnjut. 
+                    Platform ini bertujuan untuk memfasilitasi pertukaran ide, kolaborasi, 
+                    dan pengembangan proyek-proyek inovatif di kalangan mahasiswa.
+
+                </p>
+            </section>
+            <footer>
+                <p>&copy; 2026 kelompok 4 pemrograman web -UCB</p>
+            </footer>
+        </main>
+
+    </body>
+</html>
